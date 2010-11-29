@@ -380,7 +380,7 @@ if (get_option('seo_meta_tags[keywords]') != '') { ?>
 } 
 }
 add_action('ubah_talijagat_talikotang', 'tali_jagat_meta_lica');
-add_action('wp_head', 'seometa_add_meta',99);
+//add_action('wp_head', 'seometa_add_meta',99);
     add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
 
     function my_custom_dashboard_widgets() {
